@@ -1,0 +1,29 @@
+{
+  "name": "xltxlm/etcd",
+  "description": "服务发现客户端",
+  "authors": [
+    {
+      "name": "xltxlm",
+      "email": "xltxlm@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "linkorb/etcd-php": "*",
+    "xltxlm/logger": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "xltxlm\\etcd\\": [
+        "src/"
+      ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "xltxlm\\etcd\\": [
+        "./"
+      ]
+    }
+  }
+}
